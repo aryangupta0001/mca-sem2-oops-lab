@@ -1,0 +1,2 @@
+WAP that declare a local variable, a static variable and an instance variable.
+WAP that shows the dimensions of a box, i.e length, breadth & height and also show the vol. of the box.
