@@ -15,7 +15,7 @@ public class grade {
             System.out.println("Grade : Good");
 
         else if(marks >=40)
-            System.out.println("Grade : Average");
+            System.out.println("Grade : Average");`
 
         else
             System.out.println("Grade : Poor");
