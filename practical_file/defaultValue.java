@@ -27,8 +27,6 @@ public class defaultValue {
     static char d;
 
     public static void main(String[] args) {
-        defaultValue obj = new defaultValue();
-
         System.out.println("a : " + a + "\n");
         System.out.println("b : " + b + "\n");
         System.out.println("c : " + c + "\n");
