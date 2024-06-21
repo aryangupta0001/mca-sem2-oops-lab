@@ -23,4 +23,3 @@ public class grade {
         Sc.close();
     }
 }
-0
