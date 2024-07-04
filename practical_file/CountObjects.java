@@ -3,8 +3,7 @@ class Sample
     static int count;
 
     Sample()
-    {
-        count++;
+    {   count++;
     }
 }
 

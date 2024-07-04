@@ -1,20 +1,20 @@
 // Using Objects :-
 
-// public class defaultValue {
-//     int a;
-//     float b;
-//     String c = new String();
-//     char d;
+public class defaultValue {
+    int a;
+    float b;
+    String c = new String();
+    char d;
 
-//     public static void main(String[] args) {
-//         defaultValue obj = new defaultValue();
+    public static void main(String[] args) {
+        defaultValue obj = new defaultValue();
 
-//         System.out.println("a : " + obj.a + "\n");
-//         System.out.println("b : " + obj.b + "\n");
-//         System.out.println("c : " + obj.c + "\n");
-//         System.out.println("d : " + obj.d + "\n");
-//     }
-// }
+        System.out.println("a : " + obj.a + "\n");
+        System.out.println("b : " + obj.b + "\n");
+        System.out.println("c : " + obj.c + "\n");
+        System.out.println("d : " + obj.d + "\n");
+    }
+}
 
 
 
