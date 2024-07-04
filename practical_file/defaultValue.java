@@ -20,16 +20,16 @@ public class defaultValue {
 
 // Without using Objects :-
 
-public class defaultValue {
-    static int a;
-    static float b;
-    static String c = new String();
-    static char d;
+// public class defaultValue {
+//     static int a;
+//     static float b;
+//     static String c = new String();
+//     static char d;
 
-    public static void main(String[] args) {
-        System.out.println("a : " + a + "\n");
-        System.out.println("b : " + b + "\n");
-        System.out.println("c : " + c + "\n");
-        System.out.println("d : " + d + "\n");
-    }
-}
+//     public static void main(String[] args) {
+//         System.out.println("a : " + a + "\n");
+        // System.out.println("b : " + b + "\n");
+//         System.out.println("c : " + c + "\n");
+//         System.out.println("d : " + d + "\n");
+//     }
+// }
