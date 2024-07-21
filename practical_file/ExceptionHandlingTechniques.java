@@ -3,10 +3,9 @@
 // public class ExceptionHandlingTechniques {
 //     public static void main(String[] args) {
 //         int a = 20;
-//         int b = 0;
 
 //         try {
-//             System.out.println(a / b);
+//             System.out.println(a / (a-a));
 //         }
 
 //         catch (ArithmeticException e) {
@@ -20,10 +19,11 @@
 // public class ExceptionHandlingTechniques {
 //     public static void main(String[] args) {
 //         int[] A = new int[10];
+//         int len = args.length;
 
 //         try {
+//             A[2] = 2 / len;
 //             A[10] = 3;
-//             A[2] = 2 / 0;
 //         }
 
 //         catch (ArithmeticException e) {
@@ -38,49 +38,38 @@
 
 // 3. throw :-
 
-// import java.util.Scanner;
+    // public class ExceptionHandlingTechniques {
+    //     public static void main(String[] args) {
+    //         int a = args.length;
 
-// public class ExceptionHandlingTechniques {
-//     public static void main(String[] args) {
-//         Scanner Sc = new Scanner(System.in);
-//         int a = Sc.nextInt();
-//         int b = Sc.nextInt();
+    //         try {
+    //             if (a == 0)
+    //                 throw new ArithmeticException("Can not Divide by Zero");
+    //             else
+    //                 System.out.println(10 / Integer.parseInt(args[0]));
+    //         }
 
-//         try {
-//             if (b == 0)
-//                 throw new ArithmeticException("Can not Divide by Zero");
-//             else
-//                 System.out.println("a/b : " + (a / b));
-//         }
-
-//         catch (ArithmeticException e) {
-//             System.out.println(e);
-//         }
-
-//         Sc.close();
-//     }
+    //         catch (ArithmeticException e) {
+    //             System.out.println(e);
+    //         }
+    //     }
 // }
 
 // 4. throws :-
 
-// import java.util.Scanner;
 // public class ExceptionHandlingTechniques
-// {   void divide(int a, int b) throws ArithmeticException
-//     {   if(b == 0)
+// {   void divide(int a) throws ArithmeticException
+//     {   if(a == 0)
 //             throw new ArithmeticException("Can not divide by Zero");
 
 //         else
-//             System.out.println(a/b);
+//             System.out.println(10/a);
 //     }
 //     public static void main(String[] args) {
-//         Scanner Sc = new Scanner(System.in);
 //         ExceptionHandlingTechniques obj = new ExceptionHandlingTechniques();
 
-//         int a = Sc.nextInt();
-//         int b = Sc.nextInt();
-
 //         try
-//         {   obj.divide(a, b);
+//         {   obj.divide(args.length);
 //         }
 
 //         catch (ArithmeticException e)
