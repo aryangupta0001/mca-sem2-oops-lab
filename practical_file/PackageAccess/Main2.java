@@ -1,8 +1,8 @@
 package PackageAccess;
 
-public class SubMain2 {
+public class Main2 {
     public static void main(String[] args) {
-        Main obj = new Main();
+        Main1 obj = new Main1();
 
         obj.publicField = 1;
         obj.protectedField = 2;

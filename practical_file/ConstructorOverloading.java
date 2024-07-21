@@ -4,7 +4,7 @@ class Shape
 
     Shape()
     {
-        System.out.println("No shape  defined");
+        System.out.println("No shape defined");
     }
 
     Shape(int a)
@@ -15,7 +15,7 @@ class Shape
     Shape(int a, int b)
     {   this.a = a;
         this.b = b;
-        System.out.println("TThis is a rectangle with length : " + a + " and breadth : " + b);
+        System.out.println("This is a rectangle with length : " + a + " and breadth : " + b);
     }
 
     Shape(float r)

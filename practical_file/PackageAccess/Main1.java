@@ -1,6 +1,6 @@
 package PackageAccess;
 
-public class Main {
+public class Main1 {
     public int publicField;
 
     protected int protectedField;;

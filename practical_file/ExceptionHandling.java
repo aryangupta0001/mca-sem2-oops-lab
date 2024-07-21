@@ -1,6 +1,6 @@
 // 1. try-catch block :-
 
-// public class ExceptionHandlingTechniques {
+// public class ExceptionHandling {
 //     public static void main(String[] args) {
 //         int a = 20;
 
@@ -16,7 +16,7 @@
 
 // 2. multiple catch :-
 
-// public class ExceptionHandlingTechniques {
+// public class ExceptionHandling {
 //     public static void main(String[] args) {
 //         int[] A = new int[10];
 //         int len = args.length;
@@ -38,26 +38,26 @@
 
 // 3. throw :-
 
-    // public class ExceptionHandlingTechniques {
-    //     public static void main(String[] args) {
-    //         int a = args.length;
+//     public class ExceptionHandling {
+//         public static void main(String[] args) {
+//             int a = args.length;
 
-    //         try {
-    //             if (a == 0)
-    //                 throw new ArithmeticException("Can not Divide by Zero");
-    //             else
-    //                 System.out.println(10 / Integer.parseInt(args[0]));
-    //         }
+//             try {
+//                 if (a == 0)
+//                     throw new ArithmeticException("Can not Divide by Zero");
+//                 else
+//                     System.out.println(10 / Integer.parseInt(args[0]));
+//             }
 
-    //         catch (ArithmeticException e) {
-    //             System.out.println(e);
-    //         }
-    //     }
+//             catch (ArithmeticException e) {
+//                 System.out.println(e);
+//             }
+//         }
 // }
 
 // 4. throws :-
 
-// public class ExceptionHandlingTechniques
+// public class ExceptionHandling
 // {   void divide(int a) throws ArithmeticException
 //     {   if(a == 0)
 //             throw new ArithmeticException("Can not divide by Zero");
@@ -66,7 +66,7 @@
 //             System.out.println(10/a);
 //     }
 //     public static void main(String[] args) {
-//         ExceptionHandlingTechniques obj = new ExceptionHandlingTechniques();
+//         ExceptionHandling obj = new ExceptionHandling();
 
 //         try
 //         {   obj.divide(args.length);
@@ -82,7 +82,7 @@
 
 import java.util.Scanner;
 
-public class ExceptionHandlingTechniques {
+public class ExceptionHandling {
     public static void main(String[] args) {
         Scanner Sc = new Scanner(System.in);
         int a = Sc.nextInt();

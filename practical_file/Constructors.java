@@ -15,10 +15,10 @@ class Animal
         display();
     }
 
-    Animal(Animal cat)
+    Animal(Animal obj)
     {
-        this.Name = cat.Name;
-        this.Color = cat.Color;
+        this.Name = obj.Name;
+        this.Color = obj.Color;
 
         display();
     }
